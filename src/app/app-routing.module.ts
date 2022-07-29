@@ -4,7 +4,8 @@ import { MainComponent } from './components/main/main.component';
 import { NavComponent } from './components/nav/nav.component';
 
 const routes: Routes = [
- {path:'home',component:MainComponent}
+ {path:'',pathMatch:'full',redirectTo:'/home'},
+ {path:'home',component:MainComponent},
 ];
 
 @NgModule({

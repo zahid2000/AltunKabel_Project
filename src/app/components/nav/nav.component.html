@@ -1,9 +1,9 @@
-<div class="container-fluid">
+<!-- <div class="container-fluid">
   <div class="navjs-header header-shadow">
     <div class="container">
-      <!-- navjs header -->
+    navjs header
       <div class="navjs-header-container">
-        <!--Logo-->
+       
         <div
           class="logo"
           data-mobile-logo="assets/images/1altun.png"
@@ -19,14 +19,14 @@
          
         </div>
 
-        <!-- Burger menu -->
+    
         <div class="burger-menu ">
           <div class="line-menu line-half first-line"></div>
           <div class="line-menu"></div>
           <div class="line-menu line-half last-line"></div>
         </div>
 
-        <!--Navigation menu-->
+        
         <nav
           class="navjs-menu menu-caret menu-hover-4 submenu-top-border submenu-scale"
         >
@@ -68,4 +68,44 @@
       </div>
     </div>
   </div>
+</div>
+ -->
+
+
+<div class="container-fluid">
+  <nav class="navbar navbar-expand-lg bg-white sticky">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarToggler">
+        <a href="/home"class="navbar-brand" ><img width="500" src="assets/images/1altun.png" alt="logo" /></a>
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item mx-2 px-2">
+            <a class="nav-link"   routerLinkActive="['is-active']" [routerLinkActiveOptions]="{exact: true}" [routerLink]="['/home']">Ana Səhifə</a>
+          </li>
+       
+          <li class="nav-item dropdown mx-2 px-2">
+            <a class="nav-link dropdown-toggle" style="cursor:pointer ;" id="navbarDropdown" role="button" aria-expanded="false">
+             Məhsullar
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" > Alçaq Gərginlikli</a></li>
+              <li><a class="dropdown-item" > Yanğına Davamlı</a></li>
+            </ul>
+          </li>
+          <li class="nav-item mx-2 px-2">
+            <a class="nav-link">Qalereya</a>
+          </li>
+          <li class="nav-item mx-2 px-2">
+            <a class="nav-link">Haqqımızda</a>
+          </li>
+          <li class="nav-item mx-2 px-2">
+            <a class="nav-link">Əlaqə</a>
+          </li>
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
 </div>

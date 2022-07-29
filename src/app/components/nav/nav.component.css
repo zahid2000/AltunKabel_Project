@@ -1,0 +1,40 @@
+
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.dropdown{
+    animation: growDown 300ms ease-in-out forwards
+}
+.dropdown-toggle::after {
+    display: none;
+}
+
+.navbar-nav .nav-item {
+  padding: 0, 20px;
+
+}
+.navbar-nav .nav-item :hover {
+  background-color: #FF6600;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px !important;
+  transition:all .2s linear;
+}
+.dropdown:hover {
+  border-radius: 20px;
+  cursor: pointer;
+}
+.dropdown:hover .nav-link:hover {
+  background-color: #FF6600;
+  color: white;
+}
+.dropdown-menu {
+  background-color: white !important;
+  border-radius: 20px;
+}
+.dropdown .dropdown-item:hover {
+  background-color: #FF6600;
+  color: white;
+  cursor: pointer;
+}
