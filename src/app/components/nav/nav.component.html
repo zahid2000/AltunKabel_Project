@@ -74,12 +74,12 @@
 
 <div class="container-fluid">
   <nav class="navbar navbar-expand-lg bg-white sticky">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+    <a [routerLink]="['/home']" routerLinkActive="router-link-active"  class="navbar-brand w-50 " ><img style="min-width: 200px; max-width:500px;" class="img-fluid" src="assets/images/1altun.png" alt="logo" /></a>
+      <button class="navbar-toggler my-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse " id="navbarToggler">
-        <a href="/home"class="navbar-brand" ><img width="500" src="assets/images/1altun.png" alt="logo" /></a>
+        
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
           <li class="nav-item mx-2 px-2">
             <a class="nav-link"   routerLinkActive="['is-active']" [routerLinkActiveOptions]="{exact: true}" [routerLink]="['/home']">Ana Səhifə</a>
@@ -95,17 +95,17 @@
             </ul>
           </li>
           <li class="nav-item mx-2 px-2">
-            <a class="nav-link">Qalereya</a>
+            <a [routerLink]="['/galery']" routerLinkActive="router-link-active"  class="nav-link">Qalereya</a>
           </li>
           <li class="nav-item mx-2 px-2">
             <a class="nav-link">Haqqımızda</a>
           </li>
           <li class="nav-item mx-2 px-2">
-            <a class="nav-link">Əlaqə</a>
+            <a [routerLink]="['/contact']" routerLinkActive="router-link-active"  class="nav-link">Əlaqə</a>
           </li>
         </ul>
        
       </div>
-    </div>
+   
   </nav>
 </div>

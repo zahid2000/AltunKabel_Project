@@ -1,0 +1,9 @@
+
+.card{
+    position: relative;
+}
+.card-img-top{
+    position: relative;
+    height: 200px;
+    width: 100%;
+}
