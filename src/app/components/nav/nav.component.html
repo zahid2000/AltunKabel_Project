@@ -3,7 +3,7 @@
     <div class="container">
     navjs header
       <div class="navjs-header-container">
-       
+
         <div
           class="logo"
           data-mobile-logo="assets/images/1altun.png"
@@ -16,17 +16,17 @@
               class=" "
               align="left"
           /></a>
-         
+
         </div>
 
-    
+
         <div class="burger-menu ">
           <div class="line-menu line-half first-line"></div>
           <div class="line-menu"></div>
           <div class="line-menu line-half last-line"></div>
         </div>
 
-        
+
         <nav
           class="navjs-menu menu-caret menu-hover-4 submenu-top-border submenu-scale"
         >
@@ -79,14 +79,14 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse " id="navbarToggler">
-        
+
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
           <li class="nav-item mx-2 px-2">
-            <a class="nav-link"   routerLinkActive="['is-active']" [routerLinkActiveOptions]="{exact: true}" [routerLink]="['/home']">Ana Səhifə</a>
+            <a  #home class="nav-link "     [routerLink]="['/home']">Ana Səhifə</a>
           </li>
-       
-          <li class="nav-item dropdown mx-2 px-2">
-            <a class="nav-link dropdown-toggle" style="cursor:pointer ;" id="navbarDropdown" role="button" aria-expanded="false">
+
+          <li class="nav-item dropdown mx-2 px-2 ">
+            <a class="nav-link dropdown-toggle " style="cursor:pointer ;" id="navbarDropdown" role="button" aria-expanded="false">
              Məhsullar
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -104,8 +104,8 @@
             <a [routerLink]="['/contact']" routerLinkActive="router-link-active"  class="nav-link">Əlaqə</a>
           </li>
         </ul>
-       
+
       </div>
-   
+
   </nav>
 </div>
