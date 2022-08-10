@@ -11,7 +11,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { GaleryComponent } from './components/galery/galery.component';
 import { AboutComponent } from './components/about/about.component';
-import { NgImageFullscreenViewModule } from 'ng-image-fullscreen-view';
 import { ProductsComponent } from './components/products/products.component';
 import { FooterComponent } from './components/footer/footer.component';
 @NgModule({
@@ -32,7 +31,6 @@ import { FooterComponent } from './components/footer/footer.component';
     ReactiveFormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    NgImageFullscreenViewModule
 
   ],
   providers: [],
