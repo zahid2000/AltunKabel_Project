@@ -74,7 +74,7 @@
 
 <div class="container-fluid">
   <nav class="navbar navbar-expand-lg bg-white sticky">
-    <a [routerLink]="['/home']" routerLinkActive="router-link-active"  class="navbar-brand w-50 " ><img style="min-width: 200px; max-width:500px;" class="img-fluid" src="assets/images/1altun.png" alt="logo" /></a>
+    <a [routerLink]="['/home']"   class="navbar-brand " ><img style="min-width: 100px; max-width:300px;" class="img-fluid" src="assets/images/1altun.png" alt="logo" /></a>
       <button class="navbar-toggler my-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -82,12 +82,12 @@
 
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
           <li class="nav-item mx-2 px-2">
-            <a  #home class="nav-link "     [routerLink]="['/home']">Ana Səhifə</a>
+            <a   class="nav-link "   [routerLink]="['/home']"><span [class.active]="getRouter()=='/home'">Ana Səhifə</span></a>
           </li>
 
           <li class="nav-item dropdown mx-2 px-2 ">
-            <a class="nav-link dropdown-toggle " style="cursor:pointer ;" id="navbarDropdown" role="button" aria-expanded="false">
-             Məhsullar
+            <a class="nav-link dropdown-toggle " [routerLink]="['/products']"  [class.active]="getRouter()=='/products'" style="cursor:pointer ;" id="navbarDropdown" role="button" aria-expanded="false">
+             <span>Məhsullar</span>
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" > Alçaq Gərginlikli</a></li>
@@ -95,13 +95,13 @@
             </ul>
           </li>
           <li class="nav-item mx-2 px-2">
-            <a [routerLink]="['/galery']" routerLinkActive="router-link-active"  class="nav-link">Qalereya</a>
+            <a [routerLink]="['/galery']"  class="nav-link"><span  [class.active]="getRouter()=='/galery'">Qalereya</span> </a>
           </li>
           <li class="nav-item mx-2 px-2">
-            <a class="nav-link">Haqqımızda</a>
+            <a class="nav-link"  [routerLink]="['/about']" ><span  [class.active]="getRouter()=='/about'">Haqqımızda</span></a>
           </li>
           <li class="nav-item mx-2 px-2">
-            <a [routerLink]="['/contact']" routerLinkActive="router-link-active"  class="nav-link">Əlaqə</a>
+            <a [routerLink]="['/contact']"  class="nav-link"><span [class.active]="getRouter()=='/contact'">Əlaqə</span></a>
           </li>
         </ul>
 

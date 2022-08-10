@@ -10,13 +10,20 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { GaleryComponent } from './components/galery/galery.component';
+import { AboutComponent } from './components/about/about.component';
+import { NgImageFullscreenViewModule } from 'ng-image-fullscreen-view';
+import { ProductsComponent } from './components/products/products.component';
+import { FooterComponent } from './components/footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
     NavComponent,
     ContactFormComponent,
-    GaleryComponent
+    GaleryComponent,
+    AboutComponent,
+    ProductsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -25,7 +32,8 @@ import { GaleryComponent } from './components/galery/galery.component';
     ReactiveFormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-   
+    NgImageFullscreenViewModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
