@@ -1,86 +1,15 @@
-<!-- <div class="container-fluid">
-  <div class="navjs-header header-shadow">
-    <div class="container">
-    navjs header
-      <div class="navjs-header-container">
-
-        <div
-          class="logo"
-          data-mobile-logo="assets/images/1altun.png"
-          data-sticky-logo="assets/images/1altun.png"
-        >
-          <a href="#"
-            ><img
-              src="assets/images/1altun.png"
-              alt="logo"
-              class=" "
-              align="left"
-          /></a>
-
-        </div>
-
-
-        <div class="burger-menu ">
-          <div class="line-menu line-half first-line"></div>
-          <div class="line-menu"></div>
-          <div class="line-menu line-half last-line"></div>
-        </div>
-
-
-        <nav
-          class="navjs-menu menu-caret menu-hover-4 submenu-top-border submenu-scale"
-        >
-          <ul>
-            <li><a  routerLinkActive="['is-active']" [routerLinkActiveOptions]="{exact: true}" [routerLink]="['/home']">Ana Səhifə</a></li>
-            <li >
-              <a  routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" href="#">Məhsullar</a>
-              <ul>
-                <li>
-                  <a  routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" href="#">Alçaq Gərginlikli</a>
-                  <ul>
-                    <li><a href="#">Mis Kabellər</a></li>
-                    <li><a href="#">Aliminum Kabellər</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#">Yanğına Davamlı </a>
-                  <ul>
-                    <li><a href="#">Mis Kabellər</a></li>
-                    <li><a href="#">Aliminum Kabellər</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-
-            <li><a href="../webaa/product.html">Qalareya</a></li>
-
-            <li class="submenu-right">
-              <a href="#">Haqqımızda</a>
-              <ul>
-                <li><a href="#">Şirkət</a></li>
-                <li><a href="#">Sertifikatlar</a></li>
-              </ul>
-            </li>
-
-            <li><a href="#">Əlaqə</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </div>
-</div>
- -->
-
 
 <div class="container-fluid">
   <nav class="navbar navbar-expand-lg bg-white sticky">
-    <a [routerLink]="['/home']"   class="navbar-brand " ><img style="min-width: 100px; max-width:300px;" class="img-fluid" src="assets/images/1altun.png" alt="logo" /></a>
+    <a [routerLink]="['/home']"   class="navbar-brand " >
+      <img class="brand-img "    src="assets/images/1altun.png" alt="logo" />
+    </a>
       <button class="navbar-toggler my-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse " id="navbarToggler">
 
-        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item mx-2 px-2">
             <a   class="nav-link "   [routerLink]="['/home']"><span [class.active]="getRouter()=='/home'">Ana Səhifə</span></a>
           </li>

@@ -1,5 +1,16 @@
-
-
+@media screen and (max-width: 300px) {
+  .brand-img{
+    width: 150px !important;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .brand-img{
+    width: 200px !important;
+  }
+}
+.brand-img{
+  width: 300px;
+}
 .dropdown:hover > .dropdown-menu {
   display: block;
 }
@@ -10,6 +21,11 @@
     display: none;
 }
 
+
+/* navbar */
+.navbar-nav{
+  margin-right: 50px;
+}
 .navbar-nav .nav-item {
   padding: 0, 20px;
 
