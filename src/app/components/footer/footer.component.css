@@ -1,4 +1,4 @@
-/* footer */
+/* footer
 .bottomSite{
 
 	float: left;
@@ -45,8 +45,6 @@
 	text-align: center;
 	font-family: "black-ops-one";
 }
-
-
 
 
 
@@ -144,14 +142,30 @@
 	}
 
 }
+ */
+
+.footer{
+  background-color: #000000;
+  color:#00BCD3;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 20px;
+}
+.footer .footer-title{
+text-align: center;
+font-size: 35px;
+font-weight: bold;
+margin-right: 230px;
+padding-bottom: 10px;
+padding-top: 10px;
+width: 100%;
+border-bottom:4px solid    ;
+border-color: #00BCD3 !important;
+}
 
 
 
 /*whatsapp*/
-
-
-
-
 
 .float{
 	position:fixed;
@@ -163,28 +177,30 @@
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
+  align-items: center;
   font-size:30px;
 	box-shadow: 2px 2px 3px #999;
   z-index:100;
+  padding-top:7px;
 }
-
-.my-float{
-	margin-top:16px;
+li{
+  list-style: none;
 }
-
-
-.siteFin{
-	background: #00BCD3;
-	text-align: center;
-	font-size: 1.2em;
-	font-weight: 600;
+ a{
+  text-decoration: none;
+}
+/* copyright */
+.copyright{
+  border-top: 1px solid white;
+  background-color: #00BCD3;
+  text-align: center;
+margin-right: 10px;
+margin-left: 10px;
+}
+.copyright p{
+  font-size: 1.2em;
+  font-weight: 600;
 	color: #000000;
-	width: 100vw;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height:20px;
-	padding-top: 10px;
-	margin: 0;
-
+  padding: 1px;
+  margin-bottom: 0;
 }
