@@ -159,6 +159,9 @@
   border-bottom: 4px solid;
   border-color: #00bcd3 !important;
 }
+.col-md-4{
+	width: 100%;
+}
 
 li {
   list-style: none;
