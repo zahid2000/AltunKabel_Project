@@ -58,94 +58,118 @@
 </footer> -->
 <div class="footer">
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-4 contact order-1">
       <h3 class="footer-title">Bizimlə Əlaqə</h3>
-
       <hr class="divider" />
+    <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <p>
+          <li>
             ALTUN KABEL MMC<br />
             Bakı şəh<br />
             N.Nərimanov ray<br />
-            <i class="fas fa-map-marker-alt"></i> Təbriz 170<br />
-            <i class="fas fa-mail-bulk"></i> Poçt:AZ1000
-          </p>
+          </li>
+          <li>
+
+            <a
+              href="https://www.google.com/maps/place/Altun+Kabel+MMC/@40.4843262,49.9561076,15z/data=!4m12!1m6!3m5!1s0x0:0xde602d1db59ef988!2sAltun+Kabel+MMC!8m2!3d40.4843262!4d49.9561076!3m4!1s0x0:0xde602d1db59ef988!8m2!3d40.4843262!4d49.9561076"
+              target="_blank"
+            >
+            <fa-icon [icon]="faMapMarkerAlt"></fa-icon> 18 Oktaybr küçəsi, Zabrat</a
+            >
+          </li>
+          <li><fa-icon [icon]="faMailBulk"></fa-icon> Poçt:AZ1000</li>
         </div>
         <div class="col-sm-6">
-          <p>
-            <i class="fas fa-envelope"></i> EMail:<a
+          <li>
+            <a
               href="mailto:altuninfo@gmail.com"
             >
-              altuninfo@gmail.com
+            <fa-icon [icon]="faEnvelope"></fa-icon> EMail:  altuninfo@gmail.com
             </a>
-          </p>
-          <p>
-            <i class="fas fa-mobile"></i> Tel:<a href="tel:+994-785-78-95"
-              >+994-785-78-95</a
-            ><br />
-            <i class="fas fa-mobile"></i> Tel:<a href="#"> +994 50 000 00 00</a>
-          </p>
+          </li>
+          <li>
+            <a
+              href="tel:+994-785-78-95"
+              > <fa-icon [icon]="faMobile"></fa-icon> Tel: +994-785-78-95</a
+            >
+          </li>
+          <li>
+           <a href="#">
+            <fa-icon [icon]="faMobile"></fa-icon> Tel: +994 50 000 00 00</a
+            >
+          </li>
         </div>
       </div>
     </div>
-    <div class="col-md-6">
+    </div>
+    <div class="col-md-4 menu order-3 order-md-2">
+      <h3 class="footer-title">Menu</h3>
+      <hr class="divider" />
+
+      <div class="container">
+        <li>
+         <a [routerLink]="['/home']" routerLinkActive="router-link-active"> <fa-icon [icon]="faHome"></fa-icon>   Ana Səhifə</a
+          >
+        </li>
+        <li>
+          <a [routerLink]="['/products']" routerLinkActive="router-link-active"
+            ><fa-icon [icon]="faCubes"></fa-icon>  Məhsullar</a
+          >
+        </li>
+        <li>
+          <a [routerLink]="['/galery']" routerLinkActive="router-link-active"
+            ><fa-icon [icon]="faImage"></fa-icon> Qalareya
+          </a>
+        </li>
+        <li>
+          <a [routerLink]="['/about']" routerLinkActive="router-link-active"
+            > <fa-icon [icon]="faAddressCard"></fa-icon> Haqqımızda
+          </a>
+        </li>
+        <li>
+          <a [routerLink]="['/contact']" routerLinkActive="router-link-active"
+            ><fa-icon [icon]="faPhone"></fa-icon> Əlaqə
+          </a>
+        </li>
+      </div>
+    </div>
+    <div class="col-md-4 sosial order-2 order-md-3">
       <h3 class="footer-title">Sosial Şəbəkə</h3>
 
       <hr class="divider" />
-      <div class="row">
-        <div class="col-sm-6">
-           <li>
-          <a href="#"> <i class="fa-solid fa-house"></i> Ana Səhifə</a>
-        </li>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <li>
+              <a href="https://www.instagram.com/altun_kablo/" target="_blank"
+                ><fa-icon [icon]="faInstagram"></fa-icon> Instagram</a
+              >
+            </li>
 
-        <br />
+            <li>
+              <a
+                href="https://www.facebook.com/Altun-Elektrik-169825463490646"
+                target="_blank"
+              >
+              <fa-icon [icon]="faFacebook"></fa-icon> Facebook</a
+              >
+            </li>
 
-        <li>
-          <a href="#"><i class="fa-solid fa-cubes"></i> Məhsullar</a>
-        </li>
-        <br />
+            <li>
+              <a href="#"><fa-icon [icon]="faTelegram"></fa-icon> Telegram</a>
+            </li>
 
-        <li>
-          <a href="#"><i class="fa-regular fa-image"></i> Qalareya </a>
-        </li>
-        <br />
+            <li>
+              <a href="#"><fa-icon [icon]="faYoutube"></fa-icon> YouTube</a>
+            </li>
 
-        <li>
-          <a href="#"
-            ><i class="fa-regular fa-address-card"></i> Haqqımızda
-          </a>
-        </li>
-        <br>
-        <li>
-          <a href="#"
-            ><i class="fa-regular fa-address-card"></i> Əlaqə
-          </a>
-        </li>
-      </div>
-        <div class="col-sm-6">
-          <li>
-            <a href="#"><i class="fa-brands fa-instagram-square"></i> Instagram</a>
-          </li>
-          <br />
-          <li>
-            <a href="#"> <i class="fa-brands fa-facebook"></i> Facebook</a>
-          </li>
-          <br />
-          <li>
-            <a href="#"><i class="fa-brands fa-telegram"></i> Telegram</a>
-          </li>
-          <br />
-          <li>
-            <a href="#"><i class="fa-brands fa-youtube"></i> YouTube</a>
-          </li>
-          <br />
-          <li>
-            <a href="#"><i class="fa-brands fa-twitter"></i> Twitter</a>
-          </li>
+            <li>
+              <a href="#"><fa-icon [icon]="faTwitter"></fa-icon> Twitter</a>
+            </li>
+          </div>
         </div>
       </div>
-
     </div>
   </div>
 </div>

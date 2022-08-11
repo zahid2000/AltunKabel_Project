@@ -144,63 +144,86 @@
 }
  */
 
-.footer{
+.footer {
   background-color: #000000;
-  color:#00BCD3;
-  margin-left: 10px;
-  margin-right: 10px;
+  color: #00bcd3;
   padding: 20px;
 }
-.footer .footer-title{
-text-align: center;
-font-size: 35px;
-font-weight: bold;
-margin-right: 230px;
-padding-bottom: 10px;
-padding-top: 10px;
-width: 100%;
-border-bottom:4px solid    ;
-border-color: #00BCD3 !important;
+.footer .footer-title {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 100%;
+  border-bottom: 4px solid;
+  border-color: #00bcd3 !important;
 }
 
+li {
+  list-style: none;
+  padding: 5px 10px;
+  color: #00bcd3;
+  font-size: 17px;
+}
+li a {
+  color: #00bcd3;
+  text-decoration: none;
+}
+li a:hover {
+  color: blue;
+}
 
+.menu li a {
+  padding-left: 40%;
+}
+.sosial li a {
+  padding-left: 40%;
+}
+@media screen and (max-width: 574px) {
+  .contact li {
+    padding-left: 25%;
+  }
+  .menu li a {
+    padding-left: 30% !important;
+  }
+  .sosial li a {
+    padding-left: 30% !important  ;
+  }
+   .footer-title {
+    padding-right: 90px !important;
+  }
+}
 
 /*whatsapp*/
 
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  align-items: center;
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
-  padding-top:7px;
-}
-li{
-  list-style: none;
-}
- a{
-  text-decoration: none;
-}
-/* copyright */
-.copyright{
-  border-top: 1px solid white;
-  background-color: #00BCD3;
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
   text-align: center;
-margin-right: 10px;
-margin-left: 10px;
+  align-items: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  padding-top: 7px;
 }
-.copyright p{
+
+/* copyright */
+.copyright {
+  border-top: 1px solid white;
+  background-color: #00bcd3;
+  text-align: center;
+}
+.copyright p {
   font-size: 1.2em;
   font-weight: 600;
-	color: #000000;
+  color: #000000;
   padding: 1px;
   margin-bottom: 0;
 }

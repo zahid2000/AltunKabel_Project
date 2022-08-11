@@ -31,6 +31,7 @@ import { FooterComponent } from './components/footer/footer.component';
     ReactiveFormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
+    FontAwesomeModule
 
   ],
   providers: [],
