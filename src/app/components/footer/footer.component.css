@@ -159,9 +159,7 @@
   border-bottom: 4px solid;
   border-color: #00bcd3 !important;
 }
-.col-md-4{ 
-	width: 100%;
-}
+
 
 li {
   list-style: none;
@@ -209,7 +207,7 @@ li a:hover {
   border-radius: 50px;
   text-align: center;
   align-items: center;
-  font-size: 30px;
+  font-size: 14px;
   box-shadow: 2px 2px 3px #999;
   z-index: 100;
   padding-top: 7px;
@@ -222,7 +220,7 @@ li a:hover {
   text-align: center;
 }
 .copyright p {
-  font-size: 1.2em;
+  font-size: 0.9m;
   font-weight: 600;
   color: #000000;
   padding: 1px;

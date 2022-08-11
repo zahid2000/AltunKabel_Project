@@ -32,7 +32,7 @@
 
 }
 .navbar-nav .nav-item span{
-  padding: 5px;
+  padding:5px 10px;
   transition:all 0.2s linear;
 }
 .navbar-nav .nav-item :hover span {
