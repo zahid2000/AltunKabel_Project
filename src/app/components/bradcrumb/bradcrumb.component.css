@@ -62,9 +62,7 @@
     .breadcrumb-card img {
       height: 200px !important;
     }
-    .breadcrumb-body {
-    /* right: -25px !important; */
-    }
+   
     .breadcrumb-body .title .breadcrumb-title{     
       font-size: 15px !important;
     }
@@ -78,9 +76,7 @@
     .breadcrumb-card img {
       height: 220px;
     }
-    .breadcrumb-body {
-    /* right: -30px; */
-    }
+    
     .breadcrumb-body .title .breadcrumb-title{     
       font-size: 20px;
     }
