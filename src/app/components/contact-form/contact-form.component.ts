@@ -14,7 +14,7 @@ import { ContactService } from 'src/app/services/contact.service';
 export class ContactFormComponent implements OnInit {
   FormData: FormGroup;
   constructor(private builder: FormBuilder, private contact: ContactService) {}
-
+  breadcrumbitem = 'Əlaqə';
   ngOnInit(): void {
     this.createForm();
   }
@@ -28,7 +28,7 @@ export class ContactFormComponent implements OnInit {
   }
 
   onSubmit() {
-    this.FormData.reset()
+    this.FormData.reset();
     // this.contact.postMessage(FormData).subscribe(
     //   (response) => {
     //     location.href = 'https://mailthis.to/confirm';
@@ -39,6 +39,5 @@ export class ContactFormComponent implements OnInit {
     //     console.log({ error });
     //   }
     // );
-   
   }
 }

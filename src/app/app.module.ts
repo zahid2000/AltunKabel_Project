@@ -13,6 +13,7 @@ import { GaleryComponent } from './components/galery/galery.component';
 import { AboutComponent } from './components/about/about.component';
 import { ProductsComponent } from './components/products/products.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { BradcrumbComponent } from './components/bradcrumb/bradcrumb.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,8 @@ import { FooterComponent } from './components/footer/footer.component';
     GaleryComponent,
     AboutComponent,
     ProductsComponent,
-    FooterComponent
+    FooterComponent,
+    BradcrumbComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,91 @@
+.breadcrumb-card {
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:rgba(187, 13, 13, 0.9);
+  }
+  .breadcrumb-card img {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    height: 200px;
+    object-fit: cover;
+    opacity: 0.6;
+  }
+  .breadcrumb-body {
+    position: absolute;
+    z-index: 100;
+    top: 40px;
+    right: 0px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    opacity: 1;
+    color: white !important;
+  }
+  .breadcrumb-body .title {
+    margin-top: 50px;
+    width: 100%;
+    
+  }
+  .breadcrumb-body .title .breadcrumb-title{
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .breadcrumb-body .body li {
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+  }
+  .breadcrumb-body .body li span{
+    color: rgb(245, 180, 84);
+    }
+  .breadcrumb-body .body .breadcrumb .breadcrumb-item::before {
+    color: white;
+  }
+  .breadcrumb-body .body a {
+    text-decoration: none;
+    color: white;
+  }
+  .breadcrumb-body .body a:hover {
+    color: rgb(241, 182, 92); ;
+    
+  }
+
+  @media only screen and (max-width:576px) {
+    
+    .breadcrumb-card img {
+      height: 200px !important;
+    }
+    .breadcrumb-body {
+    /* right: -25px !important; */
+    }
+    .breadcrumb-body .title .breadcrumb-title{     
+      font-size: 15px !important;
+    }
+    .breadcrumb-body .body li {
+     font-size: 10px !important;
+    } 
+    
+  }
+  @media only screen and (max-width:992px) {
+    
+    .breadcrumb-card img {
+      height: 220px;
+    }
+    .breadcrumb-body {
+    /* right: -30px; */
+    }
+    .breadcrumb-body .title .breadcrumb-title{     
+      font-size: 20px;
+    }
+    .breadcrumb-body .body li {
+     font-size: 14px;
+    } 
+    
+  }

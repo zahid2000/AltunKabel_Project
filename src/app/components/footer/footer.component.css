@@ -145,7 +145,7 @@
  */
 
 .footer {
-  background-color: #000000;
+  background-color: #d35400;
   color: #00bcd3;
   padding: 20px;
 }
@@ -175,24 +175,7 @@ li a:hover {
   color: blue;
 }
 
-.menu li a {
-  padding-left: 40%;
-}
-.sosial li a {
-  padding-left: 40%;
-}
-@media screen and (max-width: 574px) {
-  .contact li {
-    padding-left: 25%;
-  }
-  .menu li a {
-    padding-left: 30% !important;
-  }
-  .sosial li a {
-    padding-left: 30% !important  ;
-  }
 
-}
 
 /*whatsapp*/
 
@@ -207,7 +190,7 @@ li a:hover {
   border-radius: 50px;
   text-align: center;
   align-items: center;
-  font-size: 14px;
+  font-size: 30px;
   box-shadow: 2px 2px 3px #999;
   z-index: 100;
   padding-top: 7px;
@@ -220,9 +203,26 @@ li a:hover {
   text-align: center;
 }
 .copyright p {
-  font-size: 0.9m;
+  font-size: 0.3m;
   font-weight: 600;
   color: #000000;
   padding: 1px;
   margin-bottom: 0;
+}
+
+@media screen and (max-width:576px) {
+	.float{
+		width: 40px !important;
+		height: 40px !important;
+		font-size: 20px !important;
+		padding-top: 5px !important;
+	}
+}
+@media screen and (max-width:992px) {
+	.float{
+		width: 50px;
+		height: 50px;
+		font-size: 25px;
+		padding-top: 5px;
+	}
 }
