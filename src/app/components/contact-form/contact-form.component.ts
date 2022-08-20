@@ -27,17 +27,5 @@ export class ContactFormComponent implements OnInit {
     });
   }
 
-  onSubmit() {
-    this.FormData.reset();
-    // this.contact.postMessage(FormData).subscribe(
-    //   (response) => {
-    //     location.href = 'https://mailthis.to/confirm';
-    //     console.log(response);
-    //   },
-    //   (error) => {
-    //     console.warn(error.responseText);
-    //     console.log({ error });
-    //   }
-    // );
-  }
+  
 }

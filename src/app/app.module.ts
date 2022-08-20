@@ -14,6 +14,8 @@ import { AboutComponent } from './components/about/about.component';
 import { ProductsComponent } from './components/products/products.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BradcrumbComponent } from './components/bradcrumb/bradcrumb.component';
+import { LogoCarouselComponent } from './components/logo-carousel/logo-carousel.component';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +26,8 @@ import { BradcrumbComponent } from './components/bradcrumb/bradcrumb.component';
     AboutComponent,
     ProductsComponent,
     FooterComponent,
-    BradcrumbComponent
+    BradcrumbComponent,
+    LogoCarouselComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +36,8 @@ import { BradcrumbComponent } from './components/bradcrumb/bradcrumb.component';
     ReactiveFormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    SlickCarouselModule
 
   ],
   providers: [],

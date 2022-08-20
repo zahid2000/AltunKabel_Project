@@ -6,6 +6,9 @@
     background-size:cover ;
 
 }
+.carousel-img{
+object-fit: cover !important;
+}
 .carousel-item::before{
    content: "";
    display: block;
@@ -69,13 +72,36 @@
 }
 
 
-@media only screen and (max-width:576px) {
+@media only screen and (max-width:572px) {
   
   .carousel-item{
-    height: 40vh !important;
+    height: 40vh ;
   }
  
 }
+@media only screen and (max-width:776px) and (min-width:572px){
+  
+  .carousel-item{
+    height: 55vh ;
+  }
+}
+
+@media only screen and (max-width:992px) and (min-width:776px){
+  
+  .carousel-item{
+    height: 70vh ;
+  }
+.carousel-caption h5{
+    font-size: 70px;
+    font-weight: 700;
+    opacity: 0.8;
+}
+.carousel-caption p{
+    font-size: 15px;
+    top: 2rem;
+}
+}
+
 
 
 
