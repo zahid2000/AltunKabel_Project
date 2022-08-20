@@ -18,7 +18,7 @@ object-fit: cover !important;
    bottom: 0;
    right: 0;
    background: #000;
-   opacity: 0.7;
+   opacity: 0.2;
 }
 .carousel-caption{
     bottom: 180px;
