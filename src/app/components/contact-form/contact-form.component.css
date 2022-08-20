@@ -1,11 +1,17 @@
 
-section{
-   background-color: aqua;
+.bg{
+   background-color: #140B5C;
+color: white;
+}
+.container{
+    height: 70vh;
 }
 li{
     list-style: none;
     padding: 5px;
+    
 }
 a{
     text-decoration: none;
+    color: white;
 }

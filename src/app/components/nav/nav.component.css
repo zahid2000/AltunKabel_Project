@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 300px) {
   .brand-img{
     width: 150px !important;
@@ -36,7 +37,7 @@
   transition:all 0.2s linear;
 }
 .navbar-nav .nav-item :hover span {
-  background-color: #FF6600;
+  background-color: #140B5C;
   color: white;
   cursor: pointer;
   border-radius: 20px !important;
@@ -48,7 +49,7 @@
   cursor: pointer;
 }
 .dropdown:hover .nav-link:hover span{
-  background-color: #FF6600;
+  background-color: #140B5C;
   color: white;
 }
 .dropdown-menu {
@@ -57,13 +58,13 @@
   padding: 10px;
 }
 .dropdown .dropdown-item:hover {
-  background-color: #FF6600;
+  background-color: #140B5C;
   color: white;
   cursor: pointer;
   border-radius:20px ;
 }
 .active{
-  background-color: #FF6600;
+  background-color: #140B5C;
   color: white !important;
   border-radius: 20px !important;
   padding: 6px;

@@ -25,7 +25,7 @@ export class LogoCarouselComponent implements OnInit {
   slideConfig = {"slidesToShow": 5, "slidesToScroll": 1,autoplay: true,
   autoplaySpeed: 2000,
   arrows: true,
-  dots: false,
+  dots: true,
   pauseOnHover: false,
   responsive: [
     {
@@ -40,7 +40,7 @@ export class LogoCarouselComponent implements OnInit {
     slidesToShow: 3
   }
   }, {
-  breakpoint: 520,
+  breakpoint: 665,
   settings: {
     slidesToShow: 2
   }

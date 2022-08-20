@@ -193,6 +193,10 @@ footer .content .link-boxes{
 footer .content .link-boxes .box{
   width: calc(100% / 5 - 10px);
 }
+.content .link-boxes .box {
+	color: #fff;
+}
+
 .content .link-boxes .box .link_name{
   color: #fff;
   font-size: 18px;
