@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import{ faContao, faFacebook, faFacebookF, faFacebookMessenger, faFacebookSquare, faInstagram, faInstagramSquare, faProductHunt, faSquareFacebook, faSquareInstagram, faTelegram, faTelegramPlane, faTwitter, faYoutube} from '@fortawesome/free-brands-svg-icons'
-import{faAddressBook, faAddressCard, faContactBook, faCubes, faCubesStacked, faEnvelope, faHistory, faHome, faHomeLg, faHomeLgAlt, faHouse, faImage, faMailBulk, faMap, faMapLocation, faMapLocationDot, faMapMarked, faMapMarkerAlt, faMobile, faPhone, } from '@fortawesome/free-solid-svg-icons'
+import{faAddressBook, faAddressCard, faCableCar, faCartFlatbed, faContactBook, faCubes, faCubesStacked, faEnvelope, faHistory, faHome, faHomeLg, faHomeLgAlt, faHouse, faImage, faLightbulb, faMailBulk, faMap, faMapLocation, faMapLocationDot, faMapMarked, faMapMarkerAlt, faMobile, faPhone, } from '@fortawesome/free-solid-svg-icons'
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
@@ -26,6 +26,7 @@ export class FooterComponent implements OnInit {
   faTelegram=faTelegram
   faYoutube=faYoutube
   faTwitter=faTwitter
+  faLightbulb=faLightbulb
   constructor() { }
 
   ngOnInit(): void {
