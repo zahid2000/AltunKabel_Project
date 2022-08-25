@@ -13,6 +13,9 @@ export class GaleryComponent implements OnInit {
   constructor(private _lightbox: Lightbox,private _lightboxConfig: LightboxConfig) {
   
     _lightboxConfig.fadeDuration = 1;
+    _lightboxConfig.fitImageInViewPort=true;
+    _lightboxConfig.showZoom=true;
+    _lightboxConfig.showDownloadButton=true;
   }
   
   ngOnInit(): void {}
