@@ -2,6 +2,7 @@ import { animate, style, transition, trigger } from '@angular/animations';
 import { Component, Input, OnInit } from '@angular/core';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import { Lightbox, LightboxConfig } from 'ngx-lightbox';
+import { ImageList } from 'src/app/models/imageList';
 import { Item } from 'src/app/models/Item';
 import { environment } from 'src/environments/environment';
 
@@ -30,7 +31,7 @@ import { environment } from 'src/environments/environment';
 })
 export class GaleryComponent implements OnInit {
   breadcrumbitem = 'Qalereya';
-  imageList: Array<any> = environment.imageList;
+  imageList: Array<any> =new ImageList().galery;
   showCount = true;
 
   previewImage = false;
