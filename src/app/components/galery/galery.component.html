@@ -1,18 +1,20 @@
+
 <bradcrumb [item]="breadcrumbitem"></bradcrumb>
  <div class="container-fluid my-4 p-3">
   <div
     class="row row-cols-1 row-cols-xxl-5 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 g-2 mb-4"
   >
 
-    <div *ngFor="let image of imageObject1;let i=index " class="col">
+    <div *ngFor="let image of _albums;let i=index " class="col">
         <div class="card border shadow mb-3">
-          <img
-            [src]="image.image"
+          
+           <img 
+           [src]="image.thumb"
             class="card-img-top "
-            alt="image.image"
-
-            style="cursor: pointer;"
-          />
+           alt="image.image" 
+           (click)="open(i)" 
+           style="cursor: pointer;" 
+           />
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
@@ -24,9 +26,5 @@
       </div>
   </div>
 </div>
-<!-- (click)="showLightbox(imageObject1, i)" -->
-  <!-- <ng-image-fullscreen-view
-      [images]="imageObject1"
-      [imageIndex]="currentIndex"
-      [show]="visiableLightbox"
-      (close)="closeHandler()"></ng-image-fullscreen-view> -->
+
+

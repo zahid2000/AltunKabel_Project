@@ -16,6 +16,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { BradcrumbComponent } from './components/bradcrumb/bradcrumb.component';
 import { LogoCarouselComponent } from './components/logo-carousel/logo-carousel.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { LightboxModule } from 'ngx-lightbox';
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,8 +38,8 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     HttpClientModule,
     BrowserAnimationsModule,
     FontAwesomeModule,
+    LightboxModule,
     SlickCarouselModule
-
   ],
   providers: [],
   bootstrap: [AppComponent]
