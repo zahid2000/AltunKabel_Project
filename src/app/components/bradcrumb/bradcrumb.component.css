@@ -60,7 +60,7 @@
   @media only screen and (max-width:576px) {
     
     .breadcrumb-card img {
-      height: 200px !important;
+      height: 180px !important;
     }
    
     .breadcrumb-body .title .breadcrumb-title{     
@@ -74,7 +74,7 @@
   @media only screen and (max-width:992px) {
     
     .breadcrumb-card img {
-      height: 220px;
+      height: 200px;
     }
     
     .breadcrumb-body .title .breadcrumb-title{     
