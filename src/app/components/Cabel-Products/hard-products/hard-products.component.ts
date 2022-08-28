@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { hardImageList } from 'src/app/models/hardImageList';
 
 @Component({
   selector: 'app-hard-products',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hard-products.component.css']
 })
 export class HardProductsComponent implements OnInit {
+  producst:Array<any>=new hardImageList().productlist;
 
   constructor() { }
 

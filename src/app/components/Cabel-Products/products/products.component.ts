@@ -22,6 +22,11 @@ export class ProductsComponent implements OnInit {
       let imageList =new ImageList();
       this.imageListForFire=imageList.products;
       this.imageListForHart=imageList.products;
+      window.scroll({ 
+        top: 0, 
+        left: 0, 
+        behavior: 'smooth' 
+  });
   }
 
  

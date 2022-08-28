@@ -17,6 +17,11 @@ export class ContactFormComponent implements OnInit {
   breadcrumbitem = 'Əlaqə';
   ngOnInit(): void {
     this.createForm();
+    window.scroll({ 
+      top: 0, 
+      left: 0, 
+      behavior: 'smooth' 
+});
   }
   createForm() {
     this.FormData = this.builder.group({

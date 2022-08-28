@@ -45,6 +45,11 @@ export class GaleryComponent implements OnInit {
 
   ngOnInit(): void {
     this.totalImageCount = this.imageList.length;
+    window.scroll({ 
+      top: 0, 
+      left: 0, 
+      behavior: 'smooth' 
+});
   }
 
  

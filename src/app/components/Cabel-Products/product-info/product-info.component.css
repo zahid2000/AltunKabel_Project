@@ -7,9 +7,7 @@
 	position: relative;
 	display: flex;
 	justify-content: center;
-	height: 90vh;
-	background-color: #140B5C;
-	color: #fff;
+	height: 80vh;
 	
 }
 
@@ -17,6 +15,7 @@
 	width: 500px;
 	position:relative;
 	padding-top: 20px;
+	
 	
 }
 

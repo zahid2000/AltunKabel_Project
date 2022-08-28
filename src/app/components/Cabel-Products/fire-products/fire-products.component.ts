@@ -1,3 +1,4 @@
+import { hardImageList } from './../../../models/hardImageList';
  
 import { Component, OnInit } from '@angular/core'; 
 import { fireImageList } from 'src/app/models/fireImageList';
@@ -9,14 +10,15 @@ import { fireImageList } from 'src/app/models/fireImageList';
   
 })
 export class FireProductsComponent implements OnInit {
-images:Array<any>=new fireImageList().images
-files:any 
+
+products:Array<any>=new fireImageList().productlist;
+
 constructor() { 
     
   }
 
   ngOnInit(): void {
-    console.warn(this.images)
+   
    
   
   } 

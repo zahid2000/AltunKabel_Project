@@ -5,10 +5,10 @@
 		<div class="motherBox">
 			
 			<div class="row row-cols-1  row-cols-xxl-3 row-cols-md-2 g-2 mb-4">
-			<div *ngFor="let image of images" [style.background-image]="'url(assets/fire-product-images/H05V-K-H07V-K_NYAF–PVC_2.1.png)'" class="box col">
+			<div *ngFor="let product of products;let i=index" [style.background-image]="'url(assets/fire-product-images/H05V-K-H07V-K_NYAF–PVC_2.1.png)'" class="box col">
 				<div class="boxIn">
-					<h3>H05V-U/H07V-U/H07V-R,NYA-PVC</h3>
-					<a routerLink="../product-info"> Ətraflı </a>
+					<h3>{{product.productName}}</h3>
+					<a routerLink="../product-info/type/1/id/{{i}}" > Ətraflı </a>
 				</div>
 			</div>
 			<!-- <div class="box col">

@@ -21,7 +21,7 @@ const routes: Routes = [
  {path:'logo',component:LogoCarouselComponent},
  {path:'fire',component:FireProductsComponent},
  {path:'hard',component:HardProductsComponent},
- {path:'product-info',component:ProductInfoComponent},
+ {path:'product-info/type/:type/id/:index',component:ProductInfoComponent},
 
 ];
 

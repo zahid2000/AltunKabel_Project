@@ -1,83 +1,84 @@
 
-		<div class="containerInfo">
+<div class="block">
+	<div class="containerInfo">
 			
-			<div class="colm1">
-				
-				<div class="infoImg">
-				<img src="../../../../assets/fire-product-images/YAVZ4V-R, AL PVC DSTA PVC, NAYBY – 0.6-1kV PVC 9.PNG" alt="YAVZ4V-R"> 
-				</div>
-				
-				<div class="azs">
-				<img src="../../../../assets/fire-product-images/azs.png" alt="azs standart">
-				</div>
-				
-				
-				
+		<div class="colm1">
+			
+			<div class="infoImg">
+			<img src="../../../../assets/fire-product-images/YAVZ4V-R, AL PVC DSTA PVC, NAYBY – 0.6-1kV PVC 9.PNG" alt="YAVZ4V-R"> 
 			</div>
-	
-			<div class="colm2">
-				<h3>İstifadə olunduğu yerlər </h3>
-				
-				<p>Enerji mərkəzlərində, paylayıcı qurğularda və sənaye müəssisələrində, mexaniki zədələnmə riskinin yüksək olduğu yerlərdə(daxildə və xaricdə), torpaq altında və kabel kanallarında istifadə olunur. </p>
-				
-				<h3>Texniki məlumat </h3>
-				
-				<table>
-					<tr>
-						
-					<td>Maksimum işləmə istiliyi  </td>
-					<td>70° C  </td>
-					
-					</tr>
-					
-					
-					<tr>
-						
-					<td>Maksimum qısa qapanma istiliyi  </td>
-					<td>160 (max.5san.)  </td>
-					
-					</tr>
-					
-					<tr>
-						
-					<td>Gərginlik  </td>
-					<td>0.6/1kV</td>
-					
-					</tr>
-					
-					
-					<tr>
-						
-					<td>Minimum əyilmə radiusu </td>
-					<td>15xD</td>
-					
-					</tr>
-				
-				</table>
-				
-				<h3> Strukturu </h3>
-				
 			
-					<ul>
-						<li>Çox telli alüminium ötürücü </li>
-						<li>PVC izolyasiya </li>
-						<li>Dolğu </li>
-						<li>Dəmir zireh </li>
-						<li>PVC xarici örtük</li>
-					</ul>
-				
-          
-			
-				<h3>Standartlar</h3>
-			
-				<p>ISO 9001: 2015 – ГОСТ 31996-2012</p>
-				
-				
+			<div class="azs">
+			<img src="../../../../assets/fire-product-images/azs.png" alt="azs standart">
 			</div>
-		
-	
-	
 		</div>
+
+		<div class="colm2" *ngIf="productInfo">
+			<h3 *ngIf="productInfo.placeOfUse">İstifadə olunduğu yerlər </h3>
+			
+			<p *ngIf="productInfo.placeOfUse">{{productInfo.placeOfUse}}</p>
+			
+			<h3>Texniki məlumat </h3>
+			
+			<table *ngIf="productInfo.techInfo">
+				<tr>
+					
+				<td *ngIf="productInfo.techInfo.workTemp">Maksimum işləmə istiliyi  </td>
+				<td *ngIf="productInfo.techInfo.workTemp">{{productInfo.techInfo.workTemp}} </td>
+				
+				</tr>
+				
+				
+				<tr>
+					
+				<td *ngIf="productInfo.techInfo.circTemp">Maksimum qısa qapanma istiliyi  </td>
+				<td *ngIf="productInfo.techInfo.circTemp">{{productInfo.techInfo.circTemp}} </td>
+				
+				</tr>
+				
+				<tr>
+					
+				<td *ngIf="productInfo.techInfo.tension">Gərginlik  </td>
+				<td *ngIf="productInfo.techInfo.tension">{{productInfo.techInfo.tension}}</td>
+				
+				</tr>
+				
+				
+				<tr>
+					
+				<td *ngIf="productInfo.techInfo.bendRad">Minimum əyilmə radiusu </td>
+				<td *ngIf="productInfo.techInfo.bendRad">{{productInfo.techInfo.bendRad}}</td>
+				
+				</tr>
+			
+			</table>
+			
+			<h3 *ngIf="productInfo.struchture"> Strukturu </h3>
+			
+		
+				<ul>
+					<li *ngIf="productInfo.struchture.A">{{productInfo.struchture.A}} </li>
+					<li *ngIf="productInfo.struchture.B">{{productInfo.struchture.B}} </li>
+					<li *ngIf="productInfo.struchture.C">{{productInfo.struchture.C}} </li>
+					<li *ngIf="productInfo.struchture.D">{{productInfo.struchture.D}} </li>
+					<li *ngIf="productInfo.struchture.E">{{productInfo.struchture.E}} </li>
+				
+				</ul>
+			
+	  
+		
+			<h3>Standartlar</h3>
+		
+			<p>ISO 9001: 2015 – ГОСТ 31996-2012</p>
+			
+			
+		</div>
+	
+
+
+	</div>
+</div>
+		
 	
 	
 	
