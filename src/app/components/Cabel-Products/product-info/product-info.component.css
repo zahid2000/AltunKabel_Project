@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+.containerInfo{
+	width: 100%;
+	background: #fff;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	height: 90vh;
+	background-color: #140B5C;
+	color: #fff;
+	
+}
+
+.colm1{
+	width: 500px;
+	position:relative;
+	padding-top: 20px;
+	
+}
+
+.colm1 .infoImg img{
+	width: 85%;
+}
+
+.azs img{
+	width: 50%;
+}
+
+.colm2{
+	width: 600px;
+	position: relative;
+	padding-left: 50px;
+	padding-top: 20px;
+}
+
+.colm2 table td:nth-child(2) {
+	padding-left: 40px;
+}
+.colm2 table td{
+	border: solid 1px white;
+	border-collapse: collapse;
+	width: 300px
+	
+}
+
+.colm2 td{
+	background-color:rgba(20,11,92,0.22) 
+}
+
+@media screen and (max-width:1024px){
+	.containerInfo{
+		width: 100%;
+		flex-direction: column;
+	}
+	
+	.colm2{
+		width:100%;
+		padding: 0
+	}
+	
+	.colm1{
+		width: 100%;
+	}
+}
+
+

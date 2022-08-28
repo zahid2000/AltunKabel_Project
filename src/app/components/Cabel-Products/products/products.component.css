@@ -1,0 +1,10 @@
+
+
+.accordion-button{
+    background-color: rgb(209, 237, 247);
+    font-family: 'Courier New', Courier, monospace   !important;
+    margin-bottom: 10px;
+}
+.img-fluid{
+    object-fit: cover;
+}
