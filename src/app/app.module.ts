@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { MainComponent } from './components/main/main.component';
 import { NavComponent } from './components/nav/nav.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { GaleryComponent } from './components/galery/galery.component';
@@ -47,7 +47,7 @@ import { ProductInfoComponent } from './components/Cabel-Products/product-info/p
     FontAwesomeModule,
     LightboxModule,
     SlickCarouselModule,
-    
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

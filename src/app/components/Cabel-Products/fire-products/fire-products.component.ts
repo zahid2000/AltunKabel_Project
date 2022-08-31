@@ -6,7 +6,7 @@ import { fireImageList } from 'src/app/models/fireImageList';
 @Component({
   selector: 'app-fire-products',
   templateUrl: './fire-products.component.html',
-  styleUrls: ['./fire-products.component.scss']
+  styleUrls: ['./fire-products.component.css']
   
 })
 export class FireProductsComponent implements OnInit {

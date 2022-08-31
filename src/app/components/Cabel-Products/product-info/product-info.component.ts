@@ -17,13 +17,10 @@ fireProducts:Array<any>= new fireImageList().productlist
 
   ngOnInit(): void {
    this.activatedRoue.params.subscribe((params)=>{
-    let id=params['index']
-    let type=params['type']
-
-    if(type){
-      if(type==1){
-        this.productInfo=this.fireProducts[id]
-        console.log(this.fireProducts[id])
+    if(params['type']){
+      if(params['type']==1){
+        this.productInfo=this.fireProducts[params['index']]
+        console.log(this.productInfo)
       }
       else if(params['type']==2){
         this.productInfo=this.hardProducts[params['index']]

@@ -7,7 +7,7 @@ import { hardImageList } from 'src/app/models/hardImageList';
   styleUrls: ['./hard-products.component.css']
 })
 export class HardProductsComponent implements OnInit {
-  producst:Array<any>=new hardImageList().productlist;
+  products:Array<any>=new hardImageList().productlist;
 
   constructor() { }
 

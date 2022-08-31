@@ -1,1 +1,14 @@
-<p>hard-products works!</p>
+<div class="back m-4 p-4">
+    <div class="container-fluid">
+      <div class="row row-cols-1 row-cols-xxl-4 row-cols-md-2 g-2 mb-4">
+        <div *ngFor="let product of products; let i = index" class="col">
+          <img src="{{ product.gridImg }}" class="image rounded" alt="" />
+          <div class="middle rounded">
+            <h3>{{ product.productName }}</h3>
+            <a routerLink="../product-info/type/1/id/{{ i }}"> Ətraflı </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
