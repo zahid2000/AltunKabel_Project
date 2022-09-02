@@ -1,12 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
-.back{
-	background: #140b5c;
+.back {
+  background: #140b5c;
 }
 .col {
   position: relative;
-  
-  
 }
 
 .image {
@@ -29,6 +27,10 @@
   left: 0;
   text-align: center;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .col:hover .image {
   opacity: 0.3;
@@ -43,7 +45,7 @@
   margin-top: 10px;
   text-decoration: none;
   color: #000000;
-  padding: 10px;
+  padding:10px  15px;
   font-weight: 500;
   border-radius: 5px;
   background-color: #dc9e9e;
@@ -53,7 +55,7 @@
   color: #ffffff;
   font-weight: 500;
   font-size: 1em;
-  margin-bottom: 15px;
+  
 }
 
 .middle a:hover {
@@ -61,4 +63,4 @@
   color: #ffffff;
   transition-duration: 0.2s;
 }
-
+  

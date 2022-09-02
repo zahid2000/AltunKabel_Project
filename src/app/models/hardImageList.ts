@@ -115,7 +115,7 @@ export class hardImageList {
         },
       },
       {
-        imgSrc: 'assets/fire-product-images/NYM,CUPVCPVC,NVV–PVC3.png',
+        imgSrc: 'assets/fire-product-images/NYM,CUPVCPVC,NVV–PVC_3.PNG',
 
         productName:
           'NYM, CU/PVC/PVC, NVV – PVC izolyasiyalı, çox damarlı, mis ötürücülü, qurasdırma kabeli',
@@ -143,7 +143,7 @@ export class hardImageList {
         },
       },
       {
-        imgSrc: 'assets/fire-product-images/YVV-U,YVV-R,CUPVCPVC,NYY–0.61kV4.png',
+        imgSrc: 'assets/fire-product-images/YVV-U,YVV-R,CUPVCPVC,NYY–0.61kV4.PNG',
 
         productName:
           'YVV-U, YVV-R, CU/PVC/PVC, NYY – 0.6/1kV PVC İzolyasiyalı, tək damarlı, mis ötürücülü kabel ',
@@ -171,7 +171,7 @@ export class hardImageList {
         },
       },
       {
-        imgSrc: 'assets/fire-product-images/YVV-R,CUPVCPVC,NYY–0.61kVPVC5.png',
+        imgSrc: 'assets/fire-product-images/YVV-R,CUPVCPVC,NYY–0.61kVPVCgrid5.PNG',
 
         productName:
           'YVV-R, CU/PVC/PVC,NYY – 0.6 / 1 kV PVC izolyasiyalı çox damarlı, mis ötürücülü, elektrik kabelləri ',
@@ -199,7 +199,7 @@ export class hardImageList {
         },
       },
       {
-        imgSrc: 'assets/fire-product-images/YVZ4V-R,CUPVCDSTAPVC,NYBY–0.61kVPVC6.png',
+        imgSrc: 'assets/fire-product-images/YVZ4V-R,CUPVCDSTAPVC,NYBY–0.61kVPVC6.PNG',
 
         productName:
           'YVZ4V-R, CU/PVC/DSTA/PVC, NYBY – 0.6/1kV PVC izolyasiyalı, dəmir zirehli, çox damarlı, mis ötürücülü kabel',
@@ -227,7 +227,7 @@ export class hardImageList {
         },
       },
       {
-        imgSrc: 'assets/fire-product-images/YAVV-R,ALPVCPVC,NAYY–0.61kVPVC7.png',
+        imgSrc: 'assets/fire-product-images/YAVV-R,ALPVCPVC,NAYY–0.61kVPVC7.PNG',
 
         productName:
           'YAVV-R, AL/PVC/PVC, NAYY – 0.6/1kV PVC izolyasiyalı, tək damarlı, alüminium ötürücülü kabel ',
@@ -255,7 +255,7 @@ export class hardImageList {
         },
       },
       {
-        imgSrc: 'assets/fire-product-images/YAVV-R,ALPVCPVC,NAYY–0.61kVPVC8.png',
+        imgSrc: 'assets/fire-product-images/YAVV-R,ALPVCPVC,NAYY–0.61kVPVC8.PNG',
 
         productName:
           'YAVV-R, AL/PVC/PVC, NAYY – 0.6/1kV PVC izolyasiyalı, çox damarlı, alüminium ötürücülü kabel ',
@@ -283,7 +283,7 @@ export class hardImageList {
         },
       },
       {
-        imgSrc: 'assets/fire-product-images/YAVZ4V-R,ALPVCDSTAPVC,NAYBY–0.6-1kVPVC9.png',
+        imgSrc: 'assets/fire-product-images/YAVZ4V-R,ALPVCDSTAPVC,NAYBY–0.6-1kVPVC9.PNG',
 
         productName:
           'YAVZ4V-R, AL/PVC/DSTA/PVC, NAYBY – 0.6-1kV PVC izolyasiyalı, dəmir zirehli, çox damarlı, alüminium ötürücülü kabel',

@@ -1,54 +1,5 @@
 <bradcrumb [item]="breadcrumbitem"></bradcrumb> 
  <div class="container-fluid my-4 p-3">
-    <!-- <div class="alert alert-info text-center" role="alert">
-        Yanğına davamlı
-      </div>
-  <div class="row row-cols-1  row-cols-xxl-3 row-cols-md-2 g-2 mb-4"
-  >
-
-    <div *ngFor="let image of  imageListForFire;let i=index " class="col">
-       
-        <div class="card mb-3" >
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img [src]="image.imageSrc" class="img-fluid rounded-start h-100" [alt]="image.imageSrc" >
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
-            </div>
-          </div>
-      </div>
-  </div>
-  <div class="alert alert-info text-center" role="alert">
-    Alçaq gərginlikli
-  </div>
-<div class="row row-cols-1  row-cols-xxl-3 row-cols-md-2 g-2 mb-4"
->
-
-<div *ngFor="let image of  imageListForHart;let i=index " class="col">
-   
-    <div class="card mb-3" >
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img [src]="image.imageSrc" class="img-fluid rounded-start h-100" [alt]="image.imageSrc" >
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        </div>
-      </div>
-  </div>
-</div> -->
-
 <div class="accordion accordion-flush " id="accordionExample">
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingOne">
@@ -65,13 +16,12 @@
               <div class="card mb-3" >
                   <div class="row g-0">
                     <div class="col-md-4">
-                      <img [src]="image.imageSrc" class="img-fluid rounded-start h-100" [alt]="image.imageSrc" >
+                      <img [src]="image.gridImg" class="img-fluid rounded-start h-100"  [alt]="image.gridImg" >
                     </div>
                     <div class="col-md-8">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <div class="card-body"> 
+                        <h6 class="card-title fw-bold">{{image.productName}}</h6>
+                        <p class="card-text " style="font-style: italic;">{{image.placeOfUse}}</p>                        
                       </div>
                     </div>
                   </div>
@@ -95,20 +45,19 @@
       
           <div *ngFor="let image of  imageListForHart;let i=index " class="col">
              
-              <div class="card mb-3" >
-                  <div class="row g-0">
-                    <div class="col-md-4">
-                      <img [src]="image.imageSrc" class="img-fluid rounded-start h-100" [alt]="image.imageSrc" >
-                    </div>
-                    <div class="col-md-8">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                      </div>
-                    </div>
+            <div class="card mb-3" >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img [src]="image.gridImg" class="img-fluid rounded-start h-100"  [alt]="image.gridImg" >
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body"> 
+                    <h6 class="card-title fw-bold">{{image.productName}}</h6>
+                    <p class="card-text " style="font-style: italic;">{{image.placeOfUse}}</p>                        
                   </div>
                 </div>
+              </div>
+            </div>
             </div>
         </div>
       </div>

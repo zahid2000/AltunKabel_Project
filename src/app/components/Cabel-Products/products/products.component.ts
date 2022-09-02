@@ -1,3 +1,5 @@
+import { hardImageList } from './../../../models/hardImageList';
+import { fireImageList } from './../../../models/fireImageList';
 import { animate, style, transition, trigger } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
@@ -19,9 +21,10 @@ export class ProductsComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-      let imageList =new ImageList();
-      this.imageListForFire=imageList.products;
-      this.imageListForHart=imageList.products;
+      let _fireImageList =new fireImageList();
+      let _hardImageList =new hardImageList();
+      this.imageListForFire=_fireImageList.productlist;
+      this.imageListForHart=_hardImageList.productlist;
       window.scroll({ 
         top: 0, 
         left: 0, 
