@@ -1,17 +1,13 @@
-
-@media screen and (max-width: 300px) {
+.brand-img{
+  width: 250px ;
+}
+@media screen and (max-width: 500px) {
   .brand-img{
     width: 100px !important;
   }
 }
-@media screen and (max-width: 1040px) {
-  .brand-img{
-    width: 200px !important;
-  }
-}
-.brand-img{
-  width: 250px;
-}
+
+
 .dropdown:hover > .dropdown-menu {
   display: block;
 }
