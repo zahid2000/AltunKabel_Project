@@ -8,3 +8,7 @@
 .img-fluid{
     object-fit:  contain;
 }
+.col
+{
+    cursor: pointer;
+}

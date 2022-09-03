@@ -11,7 +11,7 @@
           <div class="row row-cols-1    row-cols-md-2 g-2 mb-4"
         >
       
-          <div *ngFor="let image of  imageListForFire;let i=index " class="col">
+          <div *ngFor="let image of  imageListForFire;let i=index " routerLink="../product-info/type/1/id/{{ i }}" class="col">
              
               <div class="card mb-3" >
                   <div class="row g-0">
@@ -43,7 +43,7 @@
           <div class="row row-cols-1 row-cols-md-2 g-2 mb-4"
         >
       
-          <div *ngFor="let image of  imageListForHart;let i=index " class="col">
+          <div *ngFor="let image of  imageListForHart;let i=index " routerLink="../product-info/type/2/id/{{ i }}" class="col">
              
             <div class="card mb-3" >
               <div class="row g-0">

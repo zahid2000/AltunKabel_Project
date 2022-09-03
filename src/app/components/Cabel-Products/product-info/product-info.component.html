@@ -11,9 +11,13 @@
 			<div class="azs">
 			<img [src]="productInfo.prStandartImg" [alt]="productInfo.prStandartImg">
 			</div>
+			<h4 *ngIf="productInfo.productName" class="mt-4 fw-bold">{{productInfo.productName}}</h4>
+
 		</div>
 
 		<div class="colm2" *ngIf="productInfo">
+			
+			
 			<h3 *ngIf="productInfo.placeOfUse">İstifadə olunduğu yerlər </h3>
 			
 			<p *ngIf="productInfo.placeOfUse">{{productInfo.placeOfUse}}</p>
