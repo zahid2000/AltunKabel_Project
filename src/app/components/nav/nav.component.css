@@ -1,12 +1,12 @@
 
 @media screen and (max-width: 300px) {
   .brand-img{
-    width: 150px !important;
+    width: 100px !important;
   }
 }
 @media screen and (max-width: 1040px) {
   .brand-img{
-    width: 400px !important;
+    width: 200px !important;
   }
 }
 .brand-img{
