@@ -1,3 +1,4 @@
+import { SertificatesComponent } from './components/sertificates/sertificates.component';
 import { ProductInfoComponent } from './components/Cabel-Products/product-info/product-info.component';
 import { HardProductsComponent } from './components/Cabel-Products/hard-products/hard-products.component';
 import { NgModule } from '@angular/core';
@@ -21,6 +22,7 @@ const routes: Routes = [
  {path:'logo',component:LogoCarouselComponent},
  {path:'fire',component:FireProductsComponent},
  {path:'hard',component:HardProductsComponent},
+ {path:'sertificates',component:SertificatesComponent},
  {path:'product-info/type/:type/id/:index',component:ProductInfoComponent},
 
 ];

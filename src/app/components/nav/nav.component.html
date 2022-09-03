@@ -26,8 +26,15 @@
           <li class="nav-item mx-2 px-2">
             <a [routerLink]="['/galery']"  class="nav-link"><span  [class.active]="getRouter()=='/galery'">Qalereya</span> </a>
           </li>
-          <li class="nav-item mx-2 px-2">
-            <a class="nav-link"  [routerLink]="['/about']" ><span  [class.active]="getRouter()=='/about'">Haqqımızda</span></a>
+          
+          <li class="nav-item dropdown mx-2 px-2 ">
+            <a class="nav-link dropdown-toggle "   [class.active]="getRouter()=='/about'||getRouter()=='/sertificates'" style="cursor:pointer ;" id="navbarDropdown" role="button" aria-expanded="false">
+             <span>Şirkət</span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" [routerLink]="['/about']" >  Haqqımızda</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/sertificates']" > Sertifikatlar</a></li>
+            </ul>
           </li>
           <li class="nav-item mx-2 px-2">
             <a [routerLink]="['/contact']"  class="nav-link"><span [class.active]="getRouter()=='/contact'">Əlaqə</span></a>

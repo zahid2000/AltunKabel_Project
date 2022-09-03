@@ -21,6 +21,7 @@ import { LightboxModule } from 'ngx-lightbox';
 import { FireProductsComponent } from './components/Cabel-Products/fire-products/fire-products.component';
 import { HardProductsComponent } from './components/Cabel-Products/hard-products/hard-products.component';
 import { ProductInfoComponent } from './components/Cabel-Products/product-info/product-info.component';
+import { SertificatesComponent } from './components/sertificates/sertificates.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +36,8 @@ import { ProductInfoComponent } from './components/Cabel-Products/product-info/p
     LogoCarouselComponent,
     FireProductsComponent,
     HardProductsComponent,
-    ProductInfoComponent
+    ProductInfoComponent,
+    SertificatesComponent
   ],
   imports: [
     BrowserModule,
