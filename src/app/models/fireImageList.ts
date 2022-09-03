@@ -10,7 +10,7 @@ export class fireImageList {
         gridImg: '../../../../assets/fire-product-images/H05Z1-K,H07Z1-K–300-500V1.1.1.png',
 
         productName:
-          'H05Z1-U, H07Z1-U, H07Z1-R – 300-500V və 450-750 V halogensiz, alov keçirməyən, tək damarlı, mis ötürücülü kabel',
+          'H05Z1-U, H07Z1-U, H07Z1-R – 300-500V və 450-750 V ',
 
         prStandartImg: '../../../../assets/fire-product-images/azs.png',
 
@@ -39,7 +39,7 @@ export class fireImageList {
         gridImg: '../../../../assets/fire-product-images/H05Z1-U,H07Z1-U,H07Z1-R–300-500V2.1.1.png',
 
         productName:
-          'H05Z1-K, H07Z1-K – 300-500V və 450-750V halogensiz, alov keçirməyən, tək damarlı, bükülə bilən mis ötürücülü kabel',
+          'H05Z1-K, H07Z1-K – 300-500V və 450-750V ',
 
         prStandartImg: '../../../../assets/fire-product-images/azs.png',
 
@@ -68,7 +68,7 @@ export class fireImageList {
         gridImg: '../../../../assets/fire-product-images/NNHXMH-O,NHXMH-J(052XZ1-U,052XZ1-R)3.1.1.png',
 
         productName:
-          'NHXMH-O, NHXMH-J (052XZ1-U, 052XZ1-R) – 300/500V halogensiz, alov keçirməyən, XLPE izolyasiyalı, çox damarlı, mis ötürücülü kabel',
+          'NHXMH-O, NHXMH-J (052XZ1-U, 052XZ1-R) – 300/500V ',
 
         prStandartImg: '../../../../assets/fire-product-images/azs.png',
 
@@ -97,7 +97,7 @@ export class fireImageList {
         gridImg: '../../../../assets/fire-product-images/H05Z1Z1-F–300300Vvə300500V4.1.1.png',
 
         productName:
-          'H05Z1Z1-F – 300/300V və 300/500V halogensiz, alov keçirməyən, çox damarlı, bükülə bilən mis ötürücülü kabel',
+          'H05Z1Z1-F – 300/300V və 300/500V ',
 
         prStandartImg: '../../../../assets/fire-product-images/azs.png',
 
@@ -126,7 +126,7 @@ export class fireImageList {
         gridImg: '../../../../assets/fire-product-images/N2XH–0.61kV halogensiz5.1.1.png',
 
         productName:
-          'N2XH – 0.6/1kV halogensiz, alov keçirməyən, XLPE izolyasiyalı, tək damarlı, mis ötürücülü kabel',
+          'N2XH – 0.6/1kV ',
 
         prStandartImg: '../../../../assets/fire-product-images/azs.png',
 
@@ -155,7 +155,7 @@ export class fireImageList {
         gridImg: '../../../../assets/fire-product-images/YXH-R,N2XH-O–0.61kVhalogensiz6.1.1.png',
 
         productName:
-          'YXH-R, N2XH-O – 0.6/1kV halogensiz, alov keçirməyən, XLPE izolyasiyalı, çox damarlı, mis ötürücülü kabel',
+          'YXH-R, N2XH-O – 0.6/1kV ',
 
         prStandartImg: '../../../../assets/fire-product-images/azs.png',
 
@@ -186,7 +186,7 @@ export class fireImageList {
           '../../../../assets/fire-product-images/NHXMH-OFE180,NHXMH-JFE180(052XZ1-U,052XZ1-R)–300500V7.1.1.png',
 
         productName:
-          'NHXMH-O FE 180, NHXMH-J FE 180 (052XZ1-U, 052XZ1-R) – 300/500V halogensiz, alov keçirməyən, XLPE izolyasiyalı, çox damarlı, mis ötürücülü FE 180 kabel',
+          'NHXMH-O FE 180, NHXMH-J FE 180 (052XZ1-U, 052XZ1-R) – 300/500V ',
 
         prStandartImg: '../../../../assets/fire-product-images/azs.png',
 
@@ -215,7 +215,7 @@ export class fireImageList {
         gridImg: '../../../../assets/fire-product-images/YXH-U,YXH-R,N2XH-OFE180–0.61kV8.1.1.png',
 
         productName:
-          'YXH-U, YXH-R, N2XH-O FE 180 – 0.6/1kV halogensiz, alov keçirməyən, XLPE izolyasiyalı, tək damarlı, mis ötürücülü kabel',
+          'YXH-U, YXH-R, N2XH-O FE 180 – 0.6/1kV ',
 
         prStandartImg: '../../../../assets/fire-product-images/azs.png',
 
@@ -244,7 +244,7 @@ export class fireImageList {
         gridImg: '../../../../assets/fire-product-images/YXH-R,N2XH-OFE180–0.61kV9.1.1.png',
 
         productName:
-          'YXH-R, N2XH-O FE 180 – 0.6/1kV halogensiz, alov keçirməyən, XLPE izolyasiyalı, tək damarlı, mis ötürücülü kabel',
+          'YXH-R, N2XH-O FE 180 – 0.6/1kV ',
 
         prStandartImg: '../../../../assets/fire-product-images/azs.png',
 
@@ -273,7 +273,7 @@ export class fireImageList {
         gridImg: '../../../../assets/fire-product-images/YAXH-R,NA2XH-O–0.61kV10.1.1.png',
 
         productName:
-          'YAXH-R, NA2XH-O – 0.6/1kV halogensiz, alov keçirməyən, XLPE izolyasiyalı, tək damarlı alüminium ötürücülü kabel',
+          'YAXH-R, NA2XH-O – 0.6/1kV ',
 
         prStandartImg: '../../../../assets/fire-product-images/azs.png',
 
@@ -302,7 +302,7 @@ export class fireImageList {
         gridImg: '../../../../assets/fire-product-images/YAXH-R,NA2XH-O–0.61kV11.1.1.png',
 
         productName:
-          'YAXH-R, NA2XH-O – 0.6/1kV halogensiz, alov keçirməyən, XLPE izolyasiyalı, çox damarlı, alüminium ötürücülü kabel',
+          'YAXH-R, NA2XH-O – 0.6/1kV ',
 
         prStandartImg: '../../../../assets/fire-product-images/azs.png',
 

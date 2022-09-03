@@ -1,11 +1,12 @@
 .carousel-item {
-  height: 90vh;
+  height: 95vh;
   min-height: 100px;
   background: no-repeat scroll center scroll;
   -webkit-background-size: cover;
   background-size: cover;
 }
-.carousel-img {
+
+img {
   object-fit: cover !important;
 }
 .carousel-item::before {
@@ -16,23 +17,9 @@
   left: 0;
   bottom: 0;
   right: 0;
-  background: #000;
-  opacity: 0.2;
+
 }
-.carousel-caption {
-  bottom: 180px;
-  padding-left: 100px;
-  padding-right: 100px;
-}
-.carousel-caption h5 {
-  font-size: 100px;
-  font-weight: 700;
-  opacity: 0.8;
-}
-.carousel-caption p {
-  font-size: 20px;
-  top: 2rem;
-}
+
 
 .carousel-fade .carousel-inner .item {
   opacity: 0;
@@ -207,13 +194,5 @@
   .carousel-item {
     height: 70vh;
   }
-  .carousel-caption h5 {
-    font-size: 70px;
-    font-weight: 700;
-    opacity: 0.8;
-  }
-  .carousel-caption p {
-    font-size: 15px;
-    top: 2rem;
-  }
+ 
 }

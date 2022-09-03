@@ -13,15 +13,14 @@ export class LogoCarouselComponent implements OnInit {
 
   }
   slides = [
-    {img: "assets/images/image8.png"},
-    {img: "assets/images/image7.png"},
-    {img: "assets/images/image6.png"},
-    {img: "assets/images/image5.png"},
-    {img: "assets/images/image4.png"},
-    {img: "assets/images/image3.png"},
-    {img: "assets/images/image2.png"},
-    {img: "assets/images/image1.png"}
-  ];
+    {img: "assets/images/FooterSlider/ElSeym.png"},
+    {img: "assets/images/FooterSlider/Fabjpg.jpg"},
+    {img: "assets/images/FooterSlider/Gilan.jpg"},
+    {img: "assets/images/FooterSlider/GMConstruction.svg"},
+    {img: "assets/images/FooterSlider/Omid.jpg"},
+    {img: "assets/images/FooterSlider/PMD.jpg"},
+    {img: "assets/images/FooterSlider/Sans.jpg"},
+  ]
   slideConfig = {"slidesToShow": 5, "slidesToScroll": 1,autoplay: true,
   autoplaySpeed: 2000,
   arrows: true,

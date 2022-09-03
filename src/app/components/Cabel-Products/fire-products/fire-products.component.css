@@ -63,4 +63,9 @@
   color: #ffffff;
   transition-duration: 0.2s;
 }
-  
+  @media only screen and (max-width:768px) {
+    
+    .middle a{
+      padding: 5px;
+    }
+  }

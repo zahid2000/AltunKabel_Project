@@ -191,7 +191,7 @@ footer .content .link-boxes{
   justify-content: space-between;
 }
 footer .content .link-boxes .box{
-  width: calc(100% / 5 - 10px);
+  width: calc(100% / 4);
 }
 .content .link-boxes .box {
 	color: #fff;
@@ -332,7 +332,7 @@ footer .bottom-details .bottom_text{
     margin-top: 16px;
   }
   footer .content .link-boxes .box{
-    width: calc(100% / 2 - 10px);
+    width: calc(100% );
   }
   footer .content .link-boxes .input-box{
     width: 100%;
