@@ -6,11 +6,11 @@
 }
 @media screen and (max-width: 1040px) {
   .brand-img{
-    width: 200px !important;
+    width: 400px !important;
   }
 }
 .brand-img{
-  width: 300px;
+  width: 250px;
 }
 .dropdown:hover > .dropdown-menu {
   display: block;

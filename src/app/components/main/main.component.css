@@ -6,9 +6,7 @@
   background-size: cover;
 }
 
-img {
-  object-fit: cover !important;
-}
+
 .carousel-item::before {
   content: "";
   display: block;
