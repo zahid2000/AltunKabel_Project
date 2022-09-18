@@ -5,20 +5,19 @@ import { SliderImagesList } from 'src/app/models/sliderImageList';
 @Component({
   selector: 'app-main',
   templateUrl: './main.component.html',
-  styleUrls: ['./main.component.css']
+  styleUrls: ['./main.component.css'],
 })
 export class MainComponent implements OnInit {
-  faFacebookF=faFacebookF
-  sliderImagesList:Array<any>
-  constructor() { }
+  faFacebookF = faFacebookF;
+  sliderImagesList: Array<any>;
+  constructor() {}
 
   ngOnInit(): void {
-    this.sliderImagesList=new SliderImagesList().imagesList
-    window.scroll({ 
-      top: 0, 
-      left: 0, 
-      behavior: 'smooth' 
-});
+    this.sliderImagesList = new SliderImagesList().imagesList;
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: 'smooth',
+    });
   }
-
 }

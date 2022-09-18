@@ -22,6 +22,7 @@ import { FireProductsComponent } from './components/Cabel-Products/fire-products
 import { HardProductsComponent } from './components/Cabel-Products/hard-products/hard-products.component';
 import { ProductInfoComponent } from './components/Cabel-Products/product-info/product-info.component';
 import { SertificatesComponent } from './components/sertificates/sertificates.component';
+import { ScrollTopComponent } from './components/scroll-top/scroll-top.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,7 +38,8 @@ import { SertificatesComponent } from './components/sertificates/sertificates.co
     FireProductsComponent,
     HardProductsComponent,
     ProductInfoComponent,
-    SertificatesComponent
+    SertificatesComponent,
+    ScrollTopComponent
   ],
   imports: [
     BrowserModule,
