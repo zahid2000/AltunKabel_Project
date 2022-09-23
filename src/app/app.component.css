@@ -1,0 +1,39 @@
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	left:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    padding-top: 5px;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+
+
+.siteFin{
+	background: #00BCD3;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: 600;
+	color: #000000;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height:20px;
+	padding-top: 10px;
+	margin: 0;
+	
+}
+.my-float{
+    transform: scale(0.7)
+}
+.my-float:hover{
+    transform: scale(1)
+}

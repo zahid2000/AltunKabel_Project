@@ -4,41 +4,15 @@ export class SertificatesList {
   constructor() {
     this.sertificates = [
       {
-        imageSrc: 'assets/images/Sertificates/sertificate1.jpg',
-        imageAlt: 'assets/images/Sertificates/sertificate1.jpg',
+        imageSrc: 'assets/images/Sertificates/sertificate1.jpeg',
       },
       {
-        imageSrc: 'assets/images/Sertificates/sertificate2.jfif',
-        imageAlt: 'assets/images/Sertificates/sertificate2.jfif',
+        imageSrc: 'assets/images/Sertificates/sertificate2.jpeg',
       },
       {
-        imageSrc: 'assets/images/Sertificates/sertificate3.jfif',
-        imageAlt: 'assets/images/Sertificates/sertificate3.jfif',
-      },
-      {
-        imageSrc: 'assets/images/Sertificates/sertificate1.jpg',
-        imageAlt: 'assets/images/Sertificates/sertificate1.jpg',
-      },
-      {
-        imageSrc: 'assets/images/Sertificates/sertificate2.jfif',
-        imageAlt: 'assets/images/Sertificates/sertificate2.jfif',
-      },
-      {
-        imageSrc: 'assets/images/Sertificates/sertificate3.jfif',
-        imageAlt: 'assets/images/Sertificates/sertificate3.jfif',
-      },
-      {
-        imageSrc: 'assets/images/Sertificates/sertificate1.jpg',
-        imageAlt: 'assets/images/Sertificates/sertificate1.jpg',
-      },
-      {
-        imageSrc: 'assets/images/Sertificates/sertificate2.jfif',
-        imageAlt: 'assets/images/Sertificates/sertificate2.jfif',
-      },
-      {
-        imageSrc: 'assets/images/Sertificates/sertificate3.jfif',
-        imageAlt: 'assets/images/Sertificates/sertificate3.jfif',
-      },
+        imageSrc: 'assets/images/Sertificates/sertificate3.jpeg',
+      }
+      
     ];
   }
 }

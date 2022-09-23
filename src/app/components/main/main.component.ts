@@ -1,6 +1,6 @@
 import { ImageList } from './../../models/imageList';
 import { Component, OnInit } from '@angular/core';
-import { faFacebookF } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { SliderImagesList } from 'src/app/models/sliderImageList';
 @Component({
   selector: 'app-main',
@@ -9,6 +9,7 @@ import { SliderImagesList } from 'src/app/models/sliderImageList';
 })
 export class MainComponent implements OnInit {
   faFacebookF = faFacebookF;
+  faWhatsapp=faWhatsapp
   sliderImagesList: Array<any>;
   constructor() {}
 
