@@ -12,6 +12,7 @@ export class ProductInfoComponent implements OnInit {
   productInfo: any;
   hardProducts: Array<any> = new hardImageList().productlist;
   fireProducts: Array<any> = new fireImageList().productlist;
+  prStandartImg:string= '../../../../assets/product-images/azs.png';
   constructor(private activatedRoue: ActivatedRoute) {}
 
   ngOnInit(): void {

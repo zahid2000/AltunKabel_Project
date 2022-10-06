@@ -1,30 +1,19 @@
 export class hardImageList {
- 
   productlist: Array<any>;
 
   constructor() {
-   
     this.productlist = [
       {
-        imgSrc: 'assets/fire-product-images/H05V-UH07V-UH07V-R,NYA1.PNG',
-
-        gridImg: 'assets/fire-product-images/H05V-UH07V-UH07V-R,NYA1.1.png',
-
-        productName:
-          'H05V-U / H07V-U H07V-R, NYA – PVC ',
-
-        prStandartImg: 'assets/fire-product-images/azs.png',
-
-        placeOfUse:
-          'Hərəkətli cihazların bağlantılarında, bina daxilində quru yerlərdə, suvaq altında ya da suvaq üstündə istifadə edilir.',
-
+        imgSrc: 'assets/product-images/Hard/hard1.png',
+        gridImg: 'assets/product-images/Hard/hard1_1.png',
+        productName: 'H05V-U / H07V-U H07V-R, NYA – PVC ',
+        placeOfUse:'Hərəkətli cihazların bağlantılarında, bina daxilində quru yerlərdə, suvaq altında ya da suvaq üstündə istifadə edilir.',
         techInfo: {
           workTemp: '70° C',
           circTemp: '160 (max.5san.)',
           tension: '300-500V/450-750V',
           bendRad: '',
         },
-
         struchture: {
           A: 'Bir və ya çox telli mis ötürücü',
           B: 'PVC izolyasiya',
@@ -34,15 +23,9 @@ export class hardImageList {
         },
       },
       {
-        imgSrc: 'assets/fire-product-images/H05V-KH07V-K,NYAF–PVC2.PNG',
-
-        productName:
-          'H05V-K / H07V-K, NYAF – PVC ',
-
-        gridImg: 'assets/fire-product-images/H05V-KH07V-K,NYAF–PVC2.1.png',
-
-        prStandartImg: 'assets/fire-product-images/azs.png',
-
+        imgSrc: 'assets/product-images/Hard/hard2.png',
+        gridImg: 'assets/product-images/Hard/hard2_1.png',
+        productName: 'H05V-K / H07V-K, NYAF – PVC ',
         placeOfUse:
           'Hərəkətli cihazların bağlantılarında, bina daxilində quru yerlərdə, suvaq altında ya da suvaq üstündə istifadə edilir.',
 
@@ -62,14 +45,10 @@ export class hardImageList {
         },
       },
       {
-        imgSrc: 'assets/fire-product-images/NYM,CUPVCPVC,NVV–PVC_3.PNG',
+        imgSrc: 'assets/product-images/Hard/hard3.png',
+        gridImg: 'assets/product-images/Hard/hard3_1.png',
 
-        productName:
-          'NYM, CU/PVC/PVC, NVV – PVC ',
-
-        gridImg: 'assets/fire-product-images/NYM,CUPVCPVC,NVV–PVC3.1.png',
-
-        prStandartImg: 'assets/fire-product-images/azs.png',
+        productName: 'NYM, CU/PVC/PVC, NVV – PVC ',
 
         placeOfUse:
           'Mexaniki gərginliyin olmadığı nəmli yerlərdə, hər cür bina, iş mərkəzlərində, suvaq altı və suvaq üstü istifadə edilir.',
@@ -90,15 +69,12 @@ export class hardImageList {
         },
       },
       {
-        imgSrc: 'assets/fire-product-images/YVV-U,YVV-R,CUPVCPVC,NYY–0.61kV4.PNG',
-
-        productName:
-          'YVV-U, YVV-R, CU/PVC/PVC, NYY – 0.6/1kV PVC ',
-
-        gridImg: 'assets/fire-product-images/YVV-U,YVV-R,CUPVCPVC,NYY–0.61kV4.1.png',
-
-        prStandartImg: 'assets/fire-product-images/azs.png',
-
+        imgSrc:
+          'assets/product-images/Hard/hard4.png',
+          gridImg:'assets/product-images/Hard/hard4_1.png',
+          
+          productName: 'YVV-U, YVV-R, CU/PVC/PVC, NYY – 0.6/1kV PVC ',
+          
         placeOfUse:
           'Enerji mərkəzlərində, paylayıcı qurğularda və sənaye müəssisələrində, mexaniki zədələnmə riskinin olmadığı yerlərdə(xaricdə və daxildə), torpaq altında və kabel kanallarında istifadə olunur.',
 
@@ -118,14 +94,11 @@ export class hardImageList {
         },
       },
       {
-        imgSrc: 'assets/fire-product-images/YVV-R,CUPVCPVC,NYY–0.61kVPVCgrid5.PNG',
+        imgSrc:
+          'assets/product-images/Hard/hard5.png',
+          gridImg:'assets/product-images/Hard/hard5_1.png',
 
-        productName:
-          'YVV-R, CU/PVC/PVC,NYY – 0.6 / 1 kV PVC  ',
-
-        gridImg: 'assets/fire-product-images/YVV-R,CUPVCPVC,NYY–0.61kVPVC5.1.png',
-
-        prStandartImg: 'assets/fire-product-images/azs.png',
+        productName: 'YVV-R, CU/PVC/PVC,NYY – 0.6 / 1 kV PVC  ',
 
         placeOfUse:
           'Enerji mərkəzlərində, paylayıcı qurğularda və sənaye müəssisələrində, mexaniki zədələnmə riskinin olmadığı yerlərdə(xaricdə və daxildə), torpaq altında və kabel kanallarında istifadə olunur.',
@@ -146,14 +119,11 @@ export class hardImageList {
         },
       },
       {
-        imgSrc: 'assets/fire-product-images/YVZ4V-R,CUPVCDSTAPVC,NYBY–0.61kVPVC6.PNG',
+        imgSrc:
+          'assets/product-images/Hard/hard6.png',
+          gridImg:'assets/product-images/Hard/hard6_1.png',
 
-        productName:
-          'YVZ4V-R, CU/PVC/DSTA/PVC, NYBY – 0.6/1kV PVC ',
-
-        gridImg: 'assets/fire-product-images/YVZ4V-R,CUPVCDSTAPVC,NYBY–0.61kVPVC6.1.png',
-
-        prStandartImg: 'assets/fire-product-images/azs.png',
+        productName: 'YVZ4V-R, CU/PVC/DSTA/PVC, NYBY – 0.6/1kV PVC ',
 
         placeOfUse:
           'Enerji mərkəzlərində, paylayıcı qurğularda və sənaye müəssisələrində, mexaniki zədələnmə riskinin olmadığı yerlərdə(xaricdə və daxildə), torpaq altında və kabel kanallarında istifadə olunur.',
@@ -174,14 +144,10 @@ export class hardImageList {
         },
       },
       {
-        imgSrc: 'assets/fire-product-images/YAVV-R,ALPVCPVC,NAYY–0.61kVPVC7.PNG',
+        imgSrc:'assets/product-images/Hard/hard7.png',
+        gridImg:'assets/product-images/Hard/hard7_1.png',
 
-        productName:
-          'YAVV-R, AL/PVC/PVC, NAYY – 0.6/1kV PVC ',
-
-        gridImg: 'assets/fire-product-images/YAVV-R,ALPVCPVC,NAYY–0.61kVPVC7.1.png',
-
-        prStandartImg: 'assets/fire-product-images/azs.png',
+        productName: 'YAVV-R, AL/PVC/PVC, NAYY – 0.6/1kV PVC ',
 
         placeOfUse:
           'Enerji mərkəzlərində, paylayıcı qurğularda və sənaye müəssisələrində, mexaniki zədələnmə riskinin yüksək olduğu yerlərdə(daxildə və xaricdə), torpaq altında və kabel kanallarında istifadə olunur.',
@@ -202,14 +168,10 @@ export class hardImageList {
         },
       },
       {
-        imgSrc: 'assets/fire-product-images/YAVV-R,ALPVCPVC,NAYY–0.61kVPVC8.PNG',
+        imgSrc:'assets/product-images/Hard/hard8.png',
+          gridImg:'assets/product-images/Hard/hard8_1.png',
 
-        productName:
-          'YAVV-R, AL/PVC/PVC, NAYY – 0.6/1kV PVC ',
-
-        gridImg: 'assets/fire-product-images/YAVV-R,ALPVCPVC,NAYY–0.61kVPVC8.1.png',
-
-        prStandartImg: 'assets/fire-product-images/azs.png',
+        productName: 'YAVV-R, AL/PVC/PVC, NAYY – 0.6/1kV PVC ',
 
         placeOfUse:
           'Enerji mərkəzlərində, paylayıcı qurğularda və sənaye müəssisələrində, mexaniki zədələnmə riskinin yüksək olduğu yerlərdə(daxildə və xaricdə), torpaq altında və kabel kanallarında istifadə olunur.',
@@ -230,14 +192,10 @@ export class hardImageList {
         },
       },
       {
-        imgSrc: 'assets/fire-product-images/YAVZ4V-R,ALPVCDSTAPVC,NAYBY–0.6-1kVPVC9.PNG',
+        imgSrc:'assets/product-images/Hard/hard9.png',
+        gridImg:'assets/product-images/Hard/hard9_1.png',
 
-        productName:
-          'YAVZ4V-R, AL/PVC/DSTA/PVC, NAYBY – 0.6-1kV PVC ',
-
-        gridImg: 'assets/fire-product-images/YAVZ4V-R,ALPVCDSTAPVC,NAYBY–0.6-1kVPVC9.1.png',
-
-        prStandartImg: 'assets/fire-product-images/azs.png',
+        productName: 'YAVZ4V-R, AL/PVC/DSTA/PVC, NAYBY – 0.6-1kV PVC ',
 
         placeOfUse:
           'Enerji mərkəzlərində, paylayıcı qurğularda və sənaye müəssisələrində, mexaniki zədələnmə riskinin yüksək olduğu yerlərdə(daxildə və xaricdə), torpaq altında və kabel kanallarında istifadə olunur.',

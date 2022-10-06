@@ -112,7 +112,8 @@
         }
 
         .lightbox-img img {
-            width: 100%;
+            width: 60%;
+            object-fit: fill;
             border-radius: .35rem;
         }
 
@@ -129,8 +130,11 @@
                 width: 100%;
                 
             }
+           
         }
+        
     }
+    
 }
 
 @media screen and (max-width: 800px) {

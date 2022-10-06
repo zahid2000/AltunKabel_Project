@@ -11,8 +11,10 @@ export class SertificatesList {
       },
       {
         imageSrc: 'assets/images/Sertificates/sertificate3.jpeg',
+      },
+      {
+        imageSrc: 'assets/images/Sertificates/sertificate4.jpeg',
       }
-      
     ];
   }
 }

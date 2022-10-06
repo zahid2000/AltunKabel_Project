@@ -23,6 +23,7 @@ import { HardProductsComponent } from './components/Cabel-Products/hard-products
 import { ProductInfoComponent } from './components/Cabel-Products/product-info/product-info.component';
 import { SertificatesComponent } from './components/sertificates/sertificates.component';
 import { ScrollTopComponent } from './components/scroll-top/scroll-top.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 @NgModule({
   declarations: [
     AppComponent,
@@ -53,7 +54,7 @@ import { ScrollTopComponent } from './components/scroll-top/scroll-top.component
     SlickCarouselModule,
     FormsModule
   ],
-  providers: [],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
