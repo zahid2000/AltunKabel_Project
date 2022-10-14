@@ -2,6 +2,7 @@ import { hardImageList } from './../../../models/hardImageList';
  
 import { Component, OnInit } from '@angular/core'; 
 import { fireImageList } from 'src/app/models/fireImageList';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-fire-products',
@@ -12,7 +13,7 @@ import { fireImageList } from 'src/app/models/fireImageList';
 export class FireProductsComponent implements OnInit {
 
 products:Array<any>=new fireImageList().productlist;
-
+faDownload=faDownload;
 constructor() { 
     
   }
