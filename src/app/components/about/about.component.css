@@ -1,6 +1,11 @@
 
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+.container{
+	height: 80vh;
+}
+
 body {
 	font-family: 'Lato', sans-serif;
 	font-weight: normal;
