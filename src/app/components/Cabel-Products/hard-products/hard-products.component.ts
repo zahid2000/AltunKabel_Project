@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faDownload } from '@fortawesome/free-solid-svg-icons';
+
 import { hardImageList } from 'src/app/models/hardImageList';
 
 @Component({
@@ -9,7 +9,7 @@ import { hardImageList } from 'src/app/models/hardImageList';
 })
 export class HardProductsComponent implements OnInit {
   products:Array<any>=new hardImageList().productlist;
-  faDownload=faDownload;
+
   constructor() { }
 
   ngOnInit(): void {

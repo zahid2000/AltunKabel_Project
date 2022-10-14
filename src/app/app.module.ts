@@ -24,6 +24,7 @@ import { ProductInfoComponent } from './components/Cabel-Products/product-info/p
 import { SertificatesComponent } from './components/sertificates/sertificates.component';
 import { ScrollTopComponent } from './components/scroll-top/scroll-top.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { DownloadCatalogComponent } from './components/Common/download-catalog/download-catalog.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,7 +41,8 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     HardProductsComponent,
     ProductInfoComponent,
     SertificatesComponent,
-    ScrollTopComponent
+    ScrollTopComponent,
+    DownloadCatalogComponent
   ],
   imports: [
     BrowserModule,
